@@ -14,7 +14,7 @@ public class Ejercicio01 {
         System.out.println("Elementos impares de la matriz: ");        
         presentarimpares(matriz);
         System.out.println("Promedio de la matriz: ");
-        promedio(matriz);
+        System.out.println(promedio(matriz));
     }
     public static void genmatriz (int matriz [][]){
         for (int i = 0; i < matriz.length; i++) {
